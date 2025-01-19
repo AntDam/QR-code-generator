@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: https://fonts.google.com/specimen/Outfit;
+    background-color: #d5e1ef;
+  }
+
+  .container {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 5px;
+    background-color: white;
+  }
+
+  .qr-code img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .para {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    padding: 2px;
+    margin: 5px;
+  }
+
+  .para1 {
+    font-size: 10px;
+    text-align: center;
+    color: black;
+    opacity: 0.5;
+    background-color: transparent;
+    padding: 6px;
+    margin: 2px;
+  }
