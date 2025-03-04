@@ -8,13 +8,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100svh;
+    min-height: 100vh;
     font-family: 'Outfit', sans-serif;
     background-color: #d5e1ef;
   }
 
   .container {
-    max-width: 20rem;
+    max-width: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +34,7 @@ body {
   }
 
   .para {
-    font-size: 14rem;
+    font-size: 14px;
     font-weight: bold;
     color: black;
     background-color: transparent;
